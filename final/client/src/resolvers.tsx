@@ -59,6 +59,6 @@ export const resolvers: AppResolvers = {
         return data.cartItems;
       }
       return [];
-    },
+    }
   },
 };

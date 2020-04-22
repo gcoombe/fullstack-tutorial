@@ -10,7 +10,7 @@ import * as LaunchTileTypes from '../pages/__generated__/LaunchTile';
 
 const backgrounds = [galaxy, iss, moon];
 export function getBackgroundImage(id: string) {
-  return `url(${backgrounds[Number(id) % backgrounds.length]})`;
+  return  `url(${backgrounds[Number(id) % backgrounds.length]})`;
 }
 
 interface LaunchTileProps {
